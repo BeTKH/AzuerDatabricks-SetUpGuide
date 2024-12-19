@@ -1,14 +1,35 @@
-# Databricks Setup Assignment
+# Azure Databricks Setup Guide
 
-This assignment walks you through the set up of a Databrick instance and connection to your storage account.  Assignment steps:
-- Follow DataBricksSetup.pdf to set up the resource and security links to the storage account.  
-    - Note:  It will be easiest to reuse your Assignment 1 storage account as the data file is the same.  If needed, the data file is also in the InputData folder of this repo.
-- Follow GithubIntegrationToDatabricks.pdf to connect to your Github account and clone the assignment repo in Databricks.
-- You should now see SetupAssignment.py in your Databricks workspace.  Follow the steps in SetupAssignment.py to manipulate the data.
-    - Commit your changes and push the repo when done.
-- Outside of Databricks where you originally cloned this repo, pull the changes from Databricks to avoid conflicts later.
-- Go to your storage account in the Azure portal.
-    - Take screenshots of the saved CSV files and save to the AssignmentEvidence folder.
-    - Download the 'Range' file, rename it to 'SandP500Daily_Range.csv', and save to the AssignmentEvidence folder
-    - Download the 'PercentChange' file, rename it to 'SandP500Daily_PercentChange.csv', and save to the AssignmentEvidence folder.
-- Commit and push your submission.
+This guide provides a step-by-step walkthrough of setting up an Azure Databricks workspace and connecting it to an Azure storage account. It serves as a practical example of configuring cloud-based data analytics infrastructure and integrating Databricks with Azure for efficient data manipulation and storage.
+
+---
+
+## Project Overview
+
+The Azure Databricks setup guide demonstrates how to create a Databricks workspace, link it to Azure, and effectively manage data pipelines. This setup is ideal for anyone looking to establish a cloud-based analytics environment and streamline data processing tasks.
+
+---
+
+## Key Highlights
+
+### Setting Up Databricks and Azure Integration
+
+This guide covers the essential steps needed to link Databricks with an Azure storage account:
+
+- **Step 1: Databricks Workspace Setup** - set up a new Databricks workspace in Azure, configure security settings, and link it to your Azure storage following `DataBricksSetup.pdf` file.
+
+- **Step 2: Uploading Data** - Upload sample data files from the `InputData` folder in the repo to Azure storage.
+
+- **Step 3: Configuring GitHub Integration** - Integrate Databricks with GitHub for version control and seamless data management. Clone the git repo, manipulate data using Python `Setup.py`, and push changes back to GitHub.
+
+### Data Manipulation and Analysis
+
+The guide includes:
+
+- Instructions for manipulating data using Databricks notebooks.
+- Steps for saving cleaned data files back to Azure.
+- Capture of evidence through screenshots and renamed CSV files to demonstrate data processing.
+
+---
+
+This guide is a personal documentation to show how to set up an Azure Databricks workspace which can be used in a data engineering project.
