@@ -1,10 +1,6 @@
 # Azure Databricks Setup Guide
 
-This guide provides a step-by-step walkthrough of setting up an Azure Databricks workspace and connecting it to an Azure storage account. It serves as a practical example of configuring cloud-based data analytics infrastructure and integrating Databricks with Azure for efficient data manipulation and storage.
-
----
-
-## Project Overview
+## Overview
 
 The Azure Databricks setup guide demonstrates how to create a Databricks workspace, link it to Azure, and effectively manage data pipelines. This setup is ideal for anyone looking to establish a cloud-based analytics environment and streamline data processing tasks.
 
